@@ -6,6 +6,19 @@ Web UI to manage databases. Communicates with `crispy-api`
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+### Prerequisites
+
+- NodeJS version 12
+- NVM - https://github.com/nvm-sh/nvm
+- yarn - https://github.com/yarnpkg/yarn
+
+### Project setup
+
+To setup this project you have to run following commands:
+
+- `nvm use` To activate specified NodeJS version
+- `yarn` Install dependencies
+
 ### Available Scripts
 
 In the project directory, you can run:
