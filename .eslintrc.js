@@ -9,6 +9,7 @@ module.exports = {
     "plugin:react/recommended"
   ],
   rules: {
-    semi: ["error", "never"]
+    semi: ["error", "never"],
+    '@typescript-eslint/indent': ["error", 2],
   }
 };

@@ -1,3 +1,3 @@
 export const URLS = {
-  HOME: '/home',
+  HOME: '/',
 }
