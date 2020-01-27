@@ -1,0 +1,16 @@
+overwrite: true
+schema: "https://crispy-api/graphql"
+generates:
+  src/utils/apollo/queries.tsx:
+    plugins:
+      - "typescript"
+      - "typescript-operations"
+      - "typescript-react-apollo"
+
+  src/utils/apollo/modules.d.ts:
+    plugins:
+      - typescript-graphql-files-modules
+
+  src/utils/fragmentTypes.json:
+    plugins:
+      - "fragment-matcher"

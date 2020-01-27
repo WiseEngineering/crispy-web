@@ -11,5 +11,6 @@ module.exports = {
   rules: {
     semi: ["error", "never"],
     '@typescript-eslint/indent': ["error", 2],
+    "react/prop-types": "off"
   }
 };
