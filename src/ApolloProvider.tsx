@@ -6,7 +6,7 @@ import { HttpLink } from 'apollo-link-http'
 import { onError } from 'apollo-link-error'
 import { ApolloLink } from 'apollo-link'
 import { ApolloProvider as ReactApolloProvider } from 'react-apollo'
-import introspectionQueryResultData from '../src/utils/fragmentTypes.json'
+import introspectionQueryResultData from 'utils/fragmentTypes.json'
 
 const fragmentMatcher = new IntrospectionFragmentMatcher({
   introspectionQueryResultData,
