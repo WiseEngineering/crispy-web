@@ -46,6 +46,18 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+## Graphql codegen
+
+Once the graphql schema was changed you need to generate new types. For this you'd need to do a few things:
+- deploy crispy-api branch with new schema
+- run `yarn run graphql-codegen`
+
+Also you can generate new types with local environment:
+- in `codegen.yml` change shema link to local
+- add `NODE_TLS_REJECT_UNAUTHORIZED=0` flag to yarn `graphql-codegen` command
+- run `yarn run graphql-codegen`
+
+
 ## CONTRIBUTING
 
 Contributions are always welcome, no matter how large or small
